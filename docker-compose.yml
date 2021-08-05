@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+    web:
+        image: "donut5017/test-331-lab06"
+        ports: 
+            - 80:80
+            - 8001:80
