@@ -30,7 +30,7 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/test-331-lab06:latest
       -
-        name: prepare the docker-compose run
+        name: prepare the docker-compose run with server
         run: |
           mkdir vue-331
           cp docker-compose.yml vue-331/docker-compose.yml
